@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  - its a a framework that works with Node JS
+  - it has built in middleware and routing support
+
 - [ ] Describe Middleware?
+
+  - middleware is a function that a request passes through before going through the final promise. used for filtering.validation purposes typically
 
 - [ ] Describe a Resource?
 
+  - information received from the endpoints themselves
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+  - status codes, successful codes include 200 and 201
+
 - [ ] How can we partition our application into sub-applications?
+
+  we can split different paths into different routes using built in routing in express
 
 ## Minimum Viable Product
 
